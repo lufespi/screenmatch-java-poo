@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/alura-java-aplicando-poo.iml" filepath="$PROJECT_DIR$/alura-java-aplicando-poo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/desafios/desafio-01/desafio-01.iml" filepath="$PROJECT_DIR$/desafios/desafio-01/desafio-01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/desafios/desafios.iml" filepath="$PROJECT_DIR$/desafios/desafios.iml" />
+      <module fileurl="file://$PROJECT_DIR$/desafios/desafio-01/exercicio-01/exercicio-01.iml" filepath="$PROJECT_DIR$/desafios/desafio-01/exercicio-01/exercicio-01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/desafios/desafio-01/exercicio-02/exercicio-02.iml" filepath="$PROJECT_DIR$/desafios/desafio-01/exercicio-02/exercicio-02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/desafios/desafio-01/exercicio-03/exercicio-03.iml" filepath="$PROJECT_DIR$/desafios/desafio-01/exercicio-03/exercicio-03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/desafios/desafio-01/exercicio-04/exercicio-04.iml" filepath="$PROJECT_DIR$/desafios/desafio-01/exercicio-04/exercicio-04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/desafios/desafio-01/exercicio-05/exercicio-05.iml" filepath="$PROJECT_DIR$/desafios/desafio-01/exercicio-05/exercicio-05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/screen-match/screen-match.iml" filepath="$PROJECT_DIR$/screen-match/screen-match.iml" />
+    </modules>
+  </component>
+</project>
