@@ -1,6 +1,8 @@
 package io.github.lufespi.screenmatch.modelos;
 
-public class Serie extends Titulo{
+import io.github.lufespi.screenmatch.calculos.Classificavel;
+
+public class Serie extends Titulo implements Classificavel {
     private int temporadas;
     private boolean ativa;
     private int episodiosPorTemporada;
@@ -41,5 +43,10 @@ public class Serie extends Titulo{
     @Override
     public int getDuracaoEmMinutos() {
         return temporadas * episodiosPorTemporada * minutosPorEpisodio;
+    }
+
+    @Override
+    public int getClassificacao() {
+        return 0;
     }
 }

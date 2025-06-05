@@ -1,4 +1,6 @@
 import io.github.lufespi.screenmatch.calculos.CalculadoraDeTempo;
+import io.github.lufespi.screenmatch.calculos.FiltroRecomendacao;
+import io.github.lufespi.screenmatch.modelos.Episodio;
 import io.github.lufespi.screenmatch.modelos.Filme;
 import io.github.lufespi.screenmatch.modelos.Serie;
 
@@ -22,7 +24,7 @@ public class Main {
         filmeUm.avalia(8.0);
         filmeUm.avalia(9.5);
 
-//        System.out.printf("Média de Avaliações: %.1f\n\n" , filmeUm.pegaMedia());
+        System.out.printf("Média de Avaliações: %.1f\n\n" , filmeUm.pegaMedia());
 
         Serie serieUm = new Serie();
         serieUm.setNome("Breaking Bad");
@@ -38,5 +40,14 @@ public class Main {
         calculadora.inclui(filmeUm);
         calculadora.inclui(filmeDois);
         System.out.println(calculadora.getTempoTotal());
+
+        FiltroRecomendacao filtro = new FiltroRecomendacao();
+        filtro.filtra(filmeUm);
+
+        Episodio episodio = new Episodio();
+        episodio.setNumero(1);
+        episodio.setSerie(serieUm);
+        episodio.setTotalVisualizacoes(1200);
+        filtro.filtra(episodio);
     }
 }
